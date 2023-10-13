@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORM</title>
+        <h2>HTML FORMS</h2>
+        <body>
+            <fieldset>
+            <legend style="color: blue;"><b>User Registration</b></legend>
+                <form>
+
+                <!-- name form  tag  -->
+            <label for="name"><b>First Name :</b></label>
+            <input type="text" id="name" placeholder="Enter your first name" required>
+            <br><br>
+            <label for="name"><b>Middle Name :</b></label>
+            <input type="text" id="name" placeholder="Optional">
+            <br><br>
+            <label for="name"><b>Last Name :</b></label>
+            <input type="text" id="name" placeholder="last name" required>
+            <br><br>    
+            <!-- email er tag -->
+            <label for="email"><b>Email Address :</b></label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+            <!-- phone number er tag -->
+            <label for="phone"><b>Phone Number :</b></label>
+            <input type="number" id="phone" placeholder="+88 01753****">
+            <br><br>
+            <!-- password tag  -->
+            <label for="pass"><b>Password :</b></label>
+            <input type="password" id="pass">
+            <br><br>
+            <!-- Country othoba select korar jonno DROPDOWN tag -->
+            <label for="Country"><b>Choose Country :</b></label>
+            <select id="Country">
+                <option value="--Select Country">--Select Country--</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+            </select>
+            <br><br>
+            <!-- gender cng korar jonno radio type use kora hoi -->
+            <label for="Gender"><b>Gender :</b></label>
+            <br>
+            <input type="radio" id="Male" name="Gender">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender">
+            <label for="Female">Female</label>
+            <input type="radio" id="other" name="Gender">
+            <label for="other">Other </label>
+            <br><br>
+<!-- date of birth er jonno type date -->
+            <label for="birth"><b>Date of Birth :</b></label>
+            <br>
+            <input type="date" id="birth">
+            <br><br>
+            <!-- image file er jonno type file tag -->
+            <label for="image"><b>Upload Image :</b></label><br>
+            <input type="file" id="image">
+            <br><br>
+            <label for="Comments"><b>Your Message :</b></label><br>
+            <textarea id="Comments" cols="30" rows="5"></textarea>
+            <br><br>
+            <input type="checkbox" id="terms">
+            <label for="terms">Agree Terms & Conditions</label>
+            <br><br>
+            <input type="button" value="Submit">
+        </form>
+        </fieldset>
+        </body>
+    </head>
+</html>
